@@ -1,0 +1,242 @@
+please paste this <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUMA Portfolio</title>
+  <style>
+    /* -Global -*/
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /*  Navbar  */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 8%;
+      background: #222;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    nav h1 {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      color: #ff7e5f;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    nav ul li a {
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff7e5f;
+    }
+
+    /* - Hero Section - */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 8%;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: white;
+    }
+    .hero div {
+      flex: 1;
+      padding: 20px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 500px;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    /* -Section Styles- */
+    section {
+      padding: 50px 8%;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    /* -Programming Languages - */
+    .programmingLanguages ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+      padding: 0;
+    }
+    .programmingLanguages li {
+      background: #ff7e5f;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* -- Projects & Interests -- */
+    .projectsAndInterests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .projectsAndInterests div {
+      flex: 1;
+      min-width: 280px;
+    }
+    .projectsAndInterests ul {
+      margin-top: 10px;
+      padding-left: 18px;
+    }
+
+    /* -- Contact -- */
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+      gap: 12px;
+    }
+    .contact input,
+    .contact textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    .contact button {
+      padding: 12px;
+      background: #ff7e5f;
+      color: white;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .contact button:hover {
+      background: #e86b4e;
+    }
+
+    /* - Footer - */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>AUMA</h1>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/19W4haCXfmMevMjadMNtsDn0zsIKg4DvD/view?usp=drive_link">CV</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div>
+      <h2>Hello, I am Masline Auma</h2>
+      <p>A tech enthusiast passionate about creating beautiful, functional, and impactful websites. Always eager to learn new skills and leverage technology to solve real-world problems.</p>
+    </div>
+    <div>
+      <img src="background.gif" alt="Portfolio banner">
+    </div>
+  </section>
+
+  <!-- Programming Languages -->
+  <section id="about" class="card programmingLanguages">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="card education">
+    <h2>Education</h2>
+    <p><strong>School:</strong> Kenyatta University</p>
+    <p><strong>Degree:</strong> Bachelor of Science in Education</p>
+  </section>
+
+  <!-- Projects & Interests -->
+  <section id="projects" class="card projectsAndInterests">
+    <div>
+      <h2>Interests</h2>
+      <p>I enjoy building responsive, user-friendly web applications and keeping up with new frameworks and technologies. I love exploring open-source, contributing to online communities, and staying on top of trends in web development.</p>
+    </div>
+    <div>
+      <h2>Projects</h2>
+      <p>Some of the projects I’ve worked on:</p>
+      <ul>
+        <li>Task Manager Web App</li>
+        <li>Personal Blog (HTML, CSS, JS)</li>
+        <li>Open-Source Contribution to a Popular Library</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="card contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <p>&copy; 2025 AUMA. All rights reserved.</p>
+  </section>
+
+</body>
+</html>
